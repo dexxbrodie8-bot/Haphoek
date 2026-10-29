@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Haphoek | Broodjes • Vers • Lekker</title>
+
+    <meta name="description" content="Ontdek De Haphoek in Essen. Verse broodjes, snacks, koffie en dranken.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+</head>
+
+
+<body>
+
+    <div class="announcement">
+        ✦ VERS BEREID &nbsp; • &nbsp; MET LIEFDE GEMAAKT ✦
+    </div>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            <img src="img/De_Haphoek_logo.png" alt="De Haphoek logo">
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Ons menu</a>
+            <a href="#over-ons">Over ons</a>
+            <a href="#bezoek">Contact</a>
+        </nav>
+
+        <a href="#menu" class="header-button">Bekijk het menu ↗</a>
+    </header>
+
+    <main>
+
+        <!-- HOMEPAGE BANNER MET FOTO VAN DE WINKEL -->
+        <section class="hero" id="home">
+
+            <div class="hero-image"></div>
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">WELKOM BIJ DE HAPHOEK</p>
+
+                <h1>
+                    ALTIJD VERS.<br>
+                    <span>MET LIEFDE.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Van rijk belegde broodjes tot warme snacks en een
+                    goede koffie. Bij De Haphoek draait het om lekker
+                    eten, verse smaken en even genieten.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#menu" class="button gold-button">Ontdek ons menu ↗</a>
+                    <a href="#bezoek" class="button outline-button">Waar vind je ons?</a>
+                </div>
+
+                <p class="hero-caption">BROODJES &nbsp; • &nbsp; VERS &nbsp; • &nbsp; LEKKER</p>
+            </div>
+
+            <div class="fresh-badge halal-badge">
+                <img src="img/halal_logo.png" alt="Halal keurmerk">
+            </div>
+
+        </section>
+
+
+        <!-- OVER ONS -->
+        <section class="about section" id="over-ons">
+            <p class="eyebrow">EEN GOEDE KEUZE, ELKE DAG</p>
+
+            <div class="about-heading">
+                <h2>JOUW MOMENTJE.<br><span>JOUW HAPHOEK.</span></h2>
+
+                <p>
+                    Of je nu zin hebt in een vers broodje, iets warms
+                    tussendoor of een lekkere koffie: bij De Haphoek
+                    vind je jouw favoriet.
+                    <br><br>
+                    Loop gezellig binnen, kies iets lekkers en neem
+                    het mee. Simpel, vers en goed.
+                </p>
+            </div>
+
+            <div class="features">
+                <article class="feature">
+                    <span class="number">01</span>
+                    <div class="feature-icon">✳</div>
+                    <h3>Vers & smaakvol</h3>
+                    <p>Een lekkere keuze voor ieder moment van de dag.</p>
+                </article>
+
+                <article class="feature">
+                    <span class="number">02</span>
+                    <div class="feature-icon">⌁</div>
+                    <h3>Voor ieder wat</h3>
+                    <p>Broodjes, snacks, koffie, dranken en gebak.</p>
+                </article>
+
+                <article class="feature">
+                    <span class="number">03</span>
+                    <div class="feature-icon">↗</div>
+                    <h3>Makkelijk meenemen</h3>
+                    <p>Haal jouw favorieten af en geniet onderweg.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <!-- MENU -->
+        <section class="menu section" id="menu">
+            <div class="menu-heading">
+                <div>
+                    <p class="eyebrow">KIES IETS LEKKERS</p>
+                    <h2>HET <span>MENU.</span></h2>
+                </div>
+
+                <p>
+                    Van een vertrouwd broodje tot je favoriete drankje.
+                    <br>Ontdek wat er op het menu staat.
+                </p>
+            </div>
+
+            <div class="menu-category">
+                <span>BROODJES & SNACKS</span>
+                <span>24 ITEMS</span>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item"><span>Tonijn</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Tonijn pikant</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Kip pikant</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Kip andalouse</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Krabsalade</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Kipkerrysalade</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Gezond</span><b>€ 5,50</b></div>
+                <div class="menu-item"><span>Filet américain</span><b>€ 6,50</b></div>
+                <div class="menu-item"><span>Filet américain speciaal</span><b>€ 7,50</b></div>
+                <div class="menu-item"><span>Scampi</span><b>€ 6,50</b></div>
+                <div class="menu-item"><span>Carpaccio</span><b>€ 7,00</b></div>
+                <div class="menu-item"><span>Frikandel</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Frikandel gevuld</span><b>€ 3,50</b></div>
+                <div class="menu-item"><span>Mexicano</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Mexicano gevuld</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Börek</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Croissant</span><b>€ 1,50</b></div>
+                <div class="menu-item"><span>Chocoladebroodje</span><b>€ 1,50</b></div>
+                <div class="menu-item"><span>Pizza tonijn</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Frikandel curry</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Talas borek gehakt</span><b>€ 2,75</b></div>
+                <div class="menu-item"><span>Talas borek spinazie</span><b>€ 2,75</b></div>
+                <div class="menu-item"><span>Msemen naturel</span><b>€ 1,00</b></div>
+                <div class="menu-item"><span>Msemen gevuld</span><b>€ 1,50</b></div>
+            </div>
+
+            <div class="menu-category extra-heading" id="koffie">
+                <span>KOFFIE</span>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item"><span>Espresso</span><b>€ 2,20</b></div>
+                <div class="menu-item"><span>Dubbele espresso</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Koffie</span><b>€ 2,50</b></div>
+                <div class="menu-item"><span>Cappuccino</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Latte macchiato</span><b>€ 3,50</b></div>
+                <div class="menu-item"><span>Warme melk</span><b>€ 2,00</b></div>
+                <div class="menu-item"><span>Thee</span><b>€ 2,50</b></div>
+                <div class="menu-item"><span>Monin smaak extra</span><b>€ 0,50</b></div>
+            </div>
+
+            <div class="menu-category extra-heading" id="dranken">
+                <span>DRANKEN</span>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item"><span>Frisdrank</span><b>€ 2,50</b></div>
+                <div class="menu-item"><span>Red Bull</span><b>€ 3,00</b></div>
+                <div class="menu-item"><span>Red Bull (speciaal)</span><b>€ 3,50</b></div>
+            </div>
+
+            <p class="menu-note">Desserts en gebak? Bekijk het assortiment in de winkel.</p>
+        </section>
+
+
+        <!-- GOUDEN BALK -->
+        <section class="quote">
+            <p>ALTIJD VERS &nbsp; • &nbsp; MET LIEFDE &nbsp; • &nbsp; DE HAPHOEK</p>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="visit section" id="bezoek">
+            <div class="visit-intro">
+                <p class="eyebrow">JE BENT WELKOM</p>
+                <h2>LOOP EVEN<br><span>BINNEN.</span></h2>
+
+                <p>
+                    Zin in iets lekkers? Kom langs bij De Haphoek in
+                    Essen. We staan voor je klaar met broodjes,
+                    snacks en drankjes.
+                </p>
+
+                <a class="button gold-button"
+                   href="https://www.google.com/maps/search/?api=1&query=Watermolenstraat+2%2C+Essen"
+                   target="_blank" rel="noopener">
+                    Plan je route ↗
+                </a>
+            </div>
+
+            <div class="visit-details">
+                <article>
+                    <span class="detail-icon">⌖</span>
+                    <div>
+                        <h3>ONS ADRES</h3>
+                        <p>Watermolenstraat 2<br>Essen, België</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Watermolenstraat+2%2C+Essen"
+                           target="_blank" rel="noopener">Bekijk op Google Maps ↗</a>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="detail-icon">◷</span>
+                    <div>
+                        <h3>OPENINGSTIJDEN</h3>
+                        <p>Dinsdag t/m zondag<br><strong>09:30 – 16:00</strong></p>
+                        <p class="muted">Maandag gesloten</p>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="detail-icon">✉</span>
+                    <div>
+                        <h3>GROTE BESTELLING?</h3>
+                        <p>Voor groepen, bedrijfslunches of grotere bestellingen.</p>
+                        <a href="mailto:Dehaphoek@outlook.com">Dehaphoek@outlook.com ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+    <img src="img/De_Haphoek_logo.png" alt="De Haphoek logo">
+
+    <p>BROODJES • VERS • LEKKER</p>
+
+    <div class="social-links">
+        <a href="https://www.instagram.com/JOUW_INSTAGRAM/"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@JOUW_TIKTOK"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+    </div>
+
+    <a href="#home">TERUG NAAR BOVEN ↑</a>
+
+    <div class="footer-bottom">
+        <span>© 2026 De Haphoek</span>
+        <span>Gemaakt voor lekkere momenten.</span>
+        <span>ESSEN, BELGIË</span>
+    </div>
+</footer>
+
+</body>
+</html>
